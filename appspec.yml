@@ -3,8 +3,8 @@ os: windows
 files:
   - source: /Content
     destination: C:\inetpub\wwwroot
-hooks:
-  BeforeInstall: 
-    - location: ./BeforeInstall.ps1
-  AfterInstall:
-    - location: ./AfterInstall.ps1 
+#hooks:
+ # BeforeInstall: 
+ #   - location: ./BeforeInstall.ps1
+ # AfterInstall:
+  #  - location: ./AfterInstall.ps1 
